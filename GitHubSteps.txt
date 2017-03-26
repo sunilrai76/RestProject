@@ -1,0 +1,14 @@
+--create a new repository on the command line
+
+echo "# SpringProject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/sunilultra/RestProject.git
+git push -u origin master
+
+--Steps to commit the changes from eclipse
+1. Create project in eclipse
+2. Right click on project and select Share project
+3. Select git and provide the url
+4. Commit the changes and click on push
